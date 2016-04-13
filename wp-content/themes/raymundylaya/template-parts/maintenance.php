@@ -5,7 +5,7 @@
  */
 get_header('maintenance');
 ?>
-<video autoplay loop poster="/wp-content/themes/raymundylaya/images/website.jpg" id="bgvid">
+<video autoplay loop poster="/wp-content/themes/raymundylaya/images/website.jpg" id="bgvid" class="hidden-xs">
     <source src="/wp-content/themes/raymundylaya/images/website-temp.mp4" type="video/mp4">
 </video>
 <div class="container">
