@@ -38,7 +38,7 @@ get_header('maintenance');
                     <a href="https://github.com/vincent815" target="_blank"><i class="fa fa-github-square fa-3x"></i></a>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-6">
-                    <a href="https://github.com/vincent815" target="_blank"><i class="fa fa-envelope fa-3x"></i></a>
+                    <a href="mailto:ylaya.raymund@gmail.com"><i class="fa fa-envelope fa-3x"></i></a>
                 </div>
             </div>
 
