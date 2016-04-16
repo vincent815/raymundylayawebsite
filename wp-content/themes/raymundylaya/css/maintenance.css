@@ -10,6 +10,9 @@ h1,h2,h3,h4,p {
 .text-align-left {
     text-align: left;
 }
+
+video { display: block; }
+
 video#bgvid {
     position: fixed;
     top: 50%;
@@ -111,6 +114,15 @@ a:focus, a:hover {
     h3 {
         font-size:18px;
     }
+    html {
+        background: url(../images/website.jpg) #000 no-repeat center center fixed;
+    }
+    #bgvid {
+        display: none;
+    }
+    body {
+        background-color: transparent;
+    }
 }
 /*//iphone and other mobile devices (landscape)*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -127,6 +139,15 @@ a:focus, a:hover {
     h3 {
         font-size: 24px;
     }
+    html {
+        background: url(../images/website.jpg) #000 no-repeat center center fixed;
+    }
+    #bgvid {
+        display: none;
+    }
+    body {
+        background-color: transparent;
+    }
 }
 /*//tablets and other mobile devices*/
 @media only screen and (min-width: 768px) and (max-width: 991px){
@@ -135,6 +156,15 @@ a:focus, a:hover {
     }
     .social-media {
         margin-top:15px;
+    }
+    html {
+        background: url(../images/website.jpg) #000 no-repeat center center fixed;
+    }
+    #bgvid {
+        display: none;
+    }
+    body {
+        background-color: transparent;
     }
 }
 /*//iphone and other mobile devices (landscape)*/
