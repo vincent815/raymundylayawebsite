@@ -11,7 +11,7 @@ get_header('maintenance');
 <div class="container">
     <div class="content-container">
         <div class="col-md-12">
-            <h1>Coming SOON! hehehehehe :))</h1>
+            <h1>Coming SOON!</h1>
         </div>
         <!--<div class="col-md-12">
             <div class="left-content">
