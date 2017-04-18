@@ -29,7 +29,25 @@
 <div id="page" class="site">
 
 	<header id="masthead" class="site-header" role="banner">
-
+		<nav class="navbar">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+<!--					<a class="navbar-brand" href="#">WebSiteName</a>-->
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">PROJECTS</a></li>
+						<li><a href="#">ABOUT</a></li>
+						<li><a href="#">CONTACT</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

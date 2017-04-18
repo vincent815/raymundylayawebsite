@@ -14,7 +14,7 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-
+		<p>Powered by Wordpress</p>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

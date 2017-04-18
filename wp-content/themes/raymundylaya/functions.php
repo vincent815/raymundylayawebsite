@@ -119,7 +119,8 @@ function raymundylaya_scripts() {
 	wp_enqueue_style( 'raymundylaya-main-bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
 	wp_enqueue_style( 'raymundylaya-main-font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
 	wp_enqueue_style( 'raymundylaya-main-font-roboto', 'https://fonts.googleapis.com/css?family=Roboto');
-	wp_enqueue_style( 'raymundylaya-main-style', get_template_directory_uri() . '/css/maintenance.css');
+	//wp_enqueue_style( 'raymundylaya-maintenance-style', get_template_directory_uri() . '/css/maintenance.css');
+	wp_enqueue_style( 'raymundylaya-main-style', get_template_directory_uri() . '/css/main.css');
 
 
 	wp_enqueue_script( 'jquery' );
