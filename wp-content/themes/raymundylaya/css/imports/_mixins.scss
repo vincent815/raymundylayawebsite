@@ -10,3 +10,22 @@
   -moz-border-radius:$radius;
   border-radius:$radius;
 }
+@mixin remove-padding($pos){
+  @media only screen and (min-width:1200px){
+    @if($pos == 'top') {
+      padding-top: 0;
+    }
+    @else if($pos == 'right'){
+      padding-right:0;
+    }
+    @else if ($pos == 'bottom'){
+      padding-bottom:0;
+    }
+    @else if($pos == 'left'){
+      padding-left:0;
+    }
+    @else {
+      padding:0;
+    }
+  }
+}

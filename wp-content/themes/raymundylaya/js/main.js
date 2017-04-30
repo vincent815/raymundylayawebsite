@@ -129,7 +129,7 @@ jQuery(document).ready(function($){
         _addClassTimeout  = setTimeout(function(){
             $("header#masthead").removeClass('onscroll');
             $("header#masthead").addClass('scrolled');
-        },600);
+        },200);
     }
 
 
@@ -146,13 +146,13 @@ jQuery(document).ready(function($){
                 _addClassTimeout = setTimeout(function(){
                   $("header#masthead").removeClass('onscroll');
                   $("header#masthead").addClass('scrolled');
-                },600);
+                },200);
             }else {
-                clearTimeout(_addClassTimeout);
+                //clearTimeout(_addClassTimeout);
                 $("header#masthead").removeClass('onscroll');
                 $("header#masthead").removeClass('scrolled');
             }
-
+            console.log($window.scrollTop());
             //do work
             if ($window.scrollTop() + $window.height() > $document.height() - 100) {
                 //alert("near bottom!");

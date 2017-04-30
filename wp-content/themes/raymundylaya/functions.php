@@ -120,6 +120,7 @@ function raymundylaya_scripts() {
 	wp_enqueue_style( 'raymundylaya-main-font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
 	wp_enqueue_style( 'raymundylaya-main-font-roboto', 'https://fonts.googleapis.com/css?family=Roboto');
 	//wp_enqueue_style( 'raymundylaya-maintenance-style', get_template_directory_uri() . '/css/maintenance.css');
+	wp_enqueue_style( 'raymundylaya-font-awesome-style', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 	wp_enqueue_style( 'raymundylaya-main-style', get_template_directory_uri() . '/css/main.css');
 
 
@@ -127,6 +128,7 @@ function raymundylaya_scripts() {
 	wp_enqueue_script( 'raymundylaya-bootstrap-js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', array('jquery'), '20151215', true );
 	wp_enqueue_script( 'raymundylaya-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 	wp_enqueue_script( 'raymundylaya-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+	wp_enqueue_script( 'raymundylaya-smooth-scroll', get_template_directory_uri() . '/js/smooth-mouse-scroll.js', array(), '20151215', true );
 	wp_enqueue_script( 'raymundylaya-main', get_template_directory_uri() . '/js/main.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
