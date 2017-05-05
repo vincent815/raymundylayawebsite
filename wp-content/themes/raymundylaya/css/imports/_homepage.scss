@@ -1,5 +1,5 @@
 header#masthead {
-  position: absolute;
+  position: fixed;
   top: 0;
   z-index: 999;
   width: 100%;
@@ -8,26 +8,6 @@ header#masthead {
   @include transition-all(.4s);
 
   //background-color:rgba(255,255,255,.2);
-
-  /*//iphone and other mobile devices*/
-  @media only screen and (min-width: 320px) and (max-width: 479px) {
-    position: relative;
-  }
-
-  /*//iphone and other mobile devices (landscape)*/
-  @media only screen and (min-width: 480px) and (max-width: 767px) {
-    position: relative;
-  }
-
-  /*//tablets and other mobile devices*/
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    position: relative;
-  }
-
-  /*//iphone and other mobile devices (landscape)*/
-  @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    position: relative;
-  }
 
   nav {
     margin:0;
@@ -61,6 +41,11 @@ header#masthead {
           @include transition-all(.4s);
           padding:15px 30px;
           font-size:18px;
+        }
+        &.active{
+          a{
+            color:white;
+          }
         }
         &:hover{
           a{
@@ -104,6 +89,11 @@ header#masthead {
           a{
             color: #383838;
           }
+          &.active{
+          a{
+            color:white;
+          }
+        }
           &:hover{
             a{
               color:inherit;
@@ -120,8 +110,8 @@ header#masthead {
   background-position: top;
   -webkit-background-size:cover;
   background-size:cover;
-  background-attachment: fixed;
-  height:100vh;
+  //background-attachment: fixed;
+  overflow:hidden;
   position: relative;
   .heading{
     position: relative;
@@ -288,55 +278,47 @@ header#masthead {
       }
     }
   }
-
-  /*//iphone and other mobile devices*/
-  @media only screen and (min-width: 320px) and (max-width: 479px) {
-    height:auto;
-  }
-
-  /*//iphone and other mobile devices (landscape)*/
-  @media only screen and (min-width: 480px) and (max-width: 767px) {
-    height:auto;
-  }
-
-  /*//tablets and other mobile devices*/
-  @media only screen and (min-width: 768px) and (max-width: 991px){
-    height:auto;
-  }
-
-  /*//iphone and other mobile devices (landscape)*/
-  @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    height:auto;
-  }
-
-
 }
 
 #portfolio{
-  background-color:$clouds;
+
   *{
     color:$default-color;
   }
   .items{
     .item{
       display: flex;
+      display: -webkit-flex;
+      -webkit-flex-wrap:wrap;
       flex-wrap: wrap;
       padding:30px;
-      //border-bottom:1px solid $default-color;
-      //&:last-child{
-      //  border-bottom:0;
-      //}
+      margin-bottom:15px;
+      /*//iphone and other mobile devices*/
+      @media only screen and (min-width: 320px) and (max-width: 479px) {
+        padding:0;
+      }
+
+      /*//iphone and other mobile devices (landscape)*/
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        padding:0;
+      }
+      /*//tablets and other mobile devices*/
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        padding:0;
+      }
       &.first-item{
         padding-top:0;
       }
+
       img{
         //margin:0 auto;
         position: absolute;
-        left: 0;
-        top: 0;
-        right: 0;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
         margin: auto;
-        bottom: 0;
+
         /*//iphone and other mobile devices*/
         $margin-bottom-var:30px;
         @media only screen and (min-width: 320px) and (max-width: 479px) {
@@ -393,7 +375,7 @@ header#masthead {
 }
 
 #about{
-  background-color: $midnight-blue;
+
   *{
     color:$clouds;
   }
@@ -407,11 +389,34 @@ header#masthead {
     ul{
       margin:0;
       padding:0;
+      text-align: center;
       li{
         display: inline-block;
         width:20%;
         text-align: center;
         margin:30px;
+        /*//iphone and other mobile devices*/
+        @media only screen and (min-width: 320px) and (max-width: 479px) {
+          width:auto;
+          margin:15px;
+        }
+
+        /*//iphone and other mobile devices (landscape)*/
+        @media only screen and (min-width: 480px) and (max-width: 767px) {
+          width:auto;
+          margin:15px;
+        }
+
+        /*//tablets and other mobile devices*/
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+        }
+
+        /*//iphone and other mobile devices (landscape)*/
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+        }
+
       }
     }
   }
@@ -466,6 +471,58 @@ header#masthead {
     -webkit-border-radius:0;
     -moz-border-radius:0;
     border-radius:0;
+  }
+  hr{
+    border-top:1px solid $midnight-blue;
+  }
+  .address-info{
+    tr{
+      td{
+        padding-bottom:13px;
+        padding-right:15px;
+        padding-top:15px;
+      }
+    }
+    i{
+      font-size:26px;
+    }
+  }
+  .socials{
+    ul{
+      margin-top:30px;
+      padding:0;
+      li{
+        width:45%;
+        margin-bottom:30px;
+        /*//iphone and other mobile devices*/
+        @media only screen and (min-width: 320px) and (max-width: 479px) {
+          width:100%;
+        }
+
+        /*//iphone and other mobile devices (landscape)*/
+        @media only screen and (min-width: 480px) and (max-width: 767px) {
+          width:100%;;
+        }
+
+        /*//tablets and other mobile devices*/
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+        }
+
+        /*//iphone and other mobile devices (landscape)*/
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+        }
+        display: inline-block;
+        a{
+          text-decoration: none;
+          i{
+            font-size: 26px;
+            margin-right:15px;
+          }
+        }
+      }
+    }
   }
 }
 

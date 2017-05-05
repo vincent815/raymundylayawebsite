@@ -41,9 +41,9 @@
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#">PROJECTS</a></li>
-						<li><a href="#">ABOUT</a></li>
-						<li><a href="#">CONTACT</a></li>
+						<li><a data-scroll href="#portfolio">PROJECTS</a></li>
+						<li><a data-scroll href="#about">ABOUT</a></li>
+						<li><a data-scroll href="#contact">CONTACT</a></li>
 					</ul>
 				</div>
 			</div>

@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="884b8a03-83c8-43a8-ad96-f019b5dc18bb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/raymundylaya/js/smooth-mouse-scroll.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/raymundylaya/css/main.css.map" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/raymundylaya/css/.sass-cache/16ccd6eb83b82fe29b9093d270b88224f411bee7/_globals.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/raymundylaya/css/.sass-cache/16ccd6eb83b82fe29b9093d270b88224f411bee7/_globals.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/raymundylaya/css/.sass-cache/16ccd6eb83b82fe29b9093d270b88224f411bee7/_homepage.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/raymundylaya/css/.sass-cache/16ccd6eb83b82fe29b9093d270b88224f411bee7/_homepage.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/raymundylaya/css/.sass-cache/16ccd6eb83b82fe29b9093d270b88224f411bee7/_mixins.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/raymundylaya/css/.sass-cache/16ccd6eb83b82fe29b9093d270b88224f411bee7/_mixins.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/raymundylaya/css/imports/_globals.scss" afterPath="$PROJECT_DIR$/wp-content/themes/raymundylaya/css/imports/_globals.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/raymundylaya/css/imports/_homepage.scss" afterPath="$PROJECT_DIR$/wp-content/themes/raymundylaya/css/imports/_homepage.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/raymundylaya/css/imports/_mixins.scss" afterPath="$PROJECT_DIR$/wp-content/themes/raymundylaya/css/imports/_mixins.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/raymundylaya/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/raymundylaya/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/raymundylaya/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/raymundylaya/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/raymundylaya/js/main.js" afterPath="$PROJECT_DIR$/wp-content/themes/raymundylaya/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/raymundylaya/css/main.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/raymundylaya/css/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/raymundylaya/templates/homepage.php" afterPath="$PROJECT_DIR$/wp-content/themes/raymundylaya/templates/homepage.php" />
     </list>
     <ignored path="raymundylaya.dev.iws" />
@@ -39,21 +34,21 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/raymundylaya/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.4285715">
+            <state vertical-scroll-proportion="0.0">
               <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_homepage.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_homepage.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/raymundylaya/css/imports/_homepage.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.0689654">
-              <caret line="459" column="37" selection-start-line="459" selection-start-column="37" selection-end-line="459" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.3337041">
+              <caret line="302" column="10" selection-start-line="302" selection-start-column="6" selection-end-line="302" selection-end-column="10" />
               <folding>
                 <element signature="e#16#2710#0" expanded="false" />
-                <element signature="e#2719#8154#0" expanded="false" />
+                <element signature="e#2885#7586#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -69,22 +64,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_globals.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_globals.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/raymundylaya/css/imports/_globals.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8665184">
-              <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_mixins.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/raymundylaya/css/imports/_mixins.scss">
+      <file leaf-file-name="header-home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/raymundylaya/header-home.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding />
+              <caret line="43" column="57" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
+              <folding>
+                <marker date="1492532428481" expanded="true" signature="365:411" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,9 +89,12 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/raymundylaya/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.862068">
-              <caret line="512" column="0" selection-start-line="512" selection-start-column="0" selection-end-line="512" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="575" column="0" selection-start-line="575" selection-start-column="0" selection-end-line="575" selection-end-column="0" />
+              <folding>
+                <marker date="1493804847290" expanded="true" signature="14836:14862" placeholder="{...}" />
+                <marker date="1493804847290" expanded="true" signature="16529:16561" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,23 +102,19 @@
       <file leaf-file-name="homepage.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/raymundylaya/templates/homepage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.137931">
-              <caret line="101" column="38" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
-              <folding>
-                <element signature="n#style#0;n#textarea#0;n#div#2;n#div#1;n#div#0;n#section#3;n#!!top" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="50" column="51" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smooth-mouse-scroll.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/raymundylaya/js/smooth-mouse-scroll.js">
+      <file leaf-file-name="phrase.rnc" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/phrase.rnc">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="679" column="5" selection-start-line="679" selection-start-column="5" selection-end-line="679" selection-end-column="5" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -126,7 +122,7 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-includes/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <marker date="1450805968000" expanded="true" signature="17179:17283" placeholder="SELECT meta_... ${$wpdb-&gt;postmeta}" />
@@ -143,7 +139,7 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/raymundylaya/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2142856">
+            <state vertical-scroll-proportion="0.0">
               <caret line="122" column="48" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="48" />
               <folding />
             </state>
@@ -186,9 +182,9 @@
         <option value="$PROJECT_DIR$/wp-content/themes/raymundylaya/js/smooth-mouse-scroll.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/raymundylaya/js/main.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/raymundylaya/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/raymundylaya/css/imports/_homepage.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/raymundylaya/templates/homepage.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/raymundylaya/css/imports/_globals.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/raymundylaya/templates/homepage.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/raymundylaya/css/imports/_homepage.scss" />
       </list>
     </option>
   </component>
@@ -396,6 +392,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="last_opened_file_path" value="E:/Homestead/Codes/smartmenutab" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -463,10 +460,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16822916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16822916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -501,13 +498,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/raymundylaya/header-maintenance.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/raymundylaya/footer-maintenance.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -768,13 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/raymundylaya/header-home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="57" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/raymundylaya/footer-home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -794,9 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="679" column="5" selection-start-line="679" selection-start-column="5" selection-end-line="679" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -804,14 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="148" column="19" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/raymundylaya/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4285715">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -833,46 +805,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/raymundylaya/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.862068">
-          <caret line="512" column="0" selection-start-line="512" selection-start-column="0" selection-end-line="512" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="575" column="0" selection-start-line="575" selection-start-column="0" selection-end-line="575" selection-end-column="0" />
+          <folding>
+            <marker date="1493804847290" expanded="true" signature="14836:14862" placeholder="{...}" />
+            <marker date="1493804847290" expanded="true" signature="16529:16561" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/raymundylaya/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2142856">
+        <state vertical-scroll-proportion="0.0">
           <caret line="122" column="48" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/raymundylaya/header-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="57" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
+          <folding>
+            <marker date="1492532428481" expanded="true" signature="365:411" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/raymundylaya/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/raymundylaya/css/imports/_globals.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/raymundylaya/templates/homepage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.137931">
-          <caret line="101" column="38" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#textarea#0;n#div#2;n#div#1;n#div#0;n#section#3;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="51" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/raymundylaya/css/imports/_homepage.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.0689654">
-          <caret line="459" column="37" selection-start-line="459" selection-start-column="37" selection-end-line="459" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.3337041">
+          <caret line="302" column="10" selection-start-line="302" selection-start-column="6" selection-end-line="302" selection-end-column="10" />
           <folding>
             <element signature="e#16#2710#0" expanded="false" />
-            <element signature="e#2719#8154#0" expanded="false" />
+            <element signature="e#2885#7586#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/raymundylaya/css/imports/_globals.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8665184">
-          <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>

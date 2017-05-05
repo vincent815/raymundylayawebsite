@@ -82,7 +82,7 @@ jQuery(document).ready(function($){
 
     if(isMobile){
         $("#banner").height('auto');
-        $("header#masthead").css({'position':'relative','background-color':'#34495e'});
+        $("header#masthead").css({'background-color':'#34495e'});
         $(".loop-container").css({
             'width':'75%',
             'height':'90px',
@@ -90,11 +90,14 @@ jQuery(document).ready(function($){
         });
         $(".loop-container hr").css({'width':'100%'});
     }
-    var imageUrl = $('img#bg-image').attr('src')
+    var imageUrl = $('[rvy-parallax-img]').attr('src')
 
-    $('img#bg-image').attr('src',imageUrl).load(function() {
-        $(this).remove(); // prevent memory leaks as @benweet suggested
-        $('#banner').css('background-image', 'url('+imageUrl+')');
+    $('[rvy-parallax-img]').attr('src',imageUrl).load(function() {
+        if(isMobile){
+            $(this).remove(); // prevent memory leaks
+            $('#banner').css('background-image', 'url('+imageUrl+')');
+        }
+        
 
         if(!isMobile){
             setTimeout(function(){
@@ -117,49 +120,109 @@ jQuery(document).ready(function($){
     });
 
     //mouse scrolled
-    $window
-        .off('scroll', ScrollHandler)
-        .on('scroll', ScrollHandler);
+    if(!isMobile){
+        $window
+            .off('scroll', ScrollHandler)
+            .on('scroll', ScrollHandler);
 
-    if($window.scrollTop() >= 50 ){
-        if(!$("header#masthead").hasClass('scrolled')){
-            $("header#masthead").addClass('onscroll');
+        if($window.scrollTop() >= 50 ){
+            if(!$("header#masthead").hasClass('scrolled')){
+                $("header#masthead").addClass('onscroll');
+            }
+
+            _addClassTimeout  = setTimeout(function(){
+                $("header#masthead").removeClass('onscroll');
+                $("header#masthead").addClass('scrolled');
+            },200);
         }
-
-        _addClassTimeout  = setTimeout(function(){
-            $("header#masthead").removeClass('onscroll');
-            $("header#masthead").addClass('scrolled');
-        },200);
     }
+    
 
 
-    function ScrollHandler(e) {
+        function ScrollHandler(e) {
 
-        clearTimeout(_throttleTimer);
-        _throttleTimer = setTimeout(function () {
-            if($window.scrollTop() >= 50 ){
+            clearTimeout(_throttleTimer);
+            _throttleTimer = setTimeout(function () {
+                if($window.scrollTop() >= 50 ){
 
-                if(!$("header#masthead").hasClass('scrolled')){
-                    $("header#masthead").addClass('onscroll');
+                    if(!$("header#masthead").hasClass('scrolled')){
+                        $("header#masthead").addClass('onscroll');
+                    }
+
+                    _addClassTimeout = setTimeout(function(){
+                      $("header#masthead").removeClass('onscroll');
+                      $("header#masthead").addClass('scrolled');
+                    },200);
+                }else {
+                    //clearTimeout(_addClassTimeout);
+                    $("header#masthead").removeClass('onscroll');
+                    $("header#masthead").removeClass('scrolled');
+                }
+                
+                //do work
+                if ($window.scrollTop() + $window.height() > $document.height() - 100) {
+                    //alert("near bottom!");
                 }
 
-                _addClassTimeout = setTimeout(function(){
-                  $("header#masthead").removeClass('onscroll');
-                  $("header#masthead").addClass('scrolled');
-                },200);
-            }else {
-                //clearTimeout(_addClassTimeout);
-                $("header#masthead").removeClass('onscroll');
-                $("header#masthead").removeClass('scrolled');
-            }
-            console.log($window.scrollTop());
-            //do work
-            if ($window.scrollTop() + $window.height() > $document.height() - 100) {
-                //alert("near bottom!");
-            }
+            }, _throttleDelay);
+        }
 
-        }, _throttleDelay);
-    }
+    smoothScroll.init({
+        speed: 3500,
+        easing: 'easeInOutQuint',
+        offset: 50,
+        updateURL: false
+    });
+
+    // Cache selectors
+    var lastId,
+        topMenu = $("#myNavbar ul"),
+        topMenuHeight = topMenu.outerHeight()+50,
+    // All list items
+        menuItems = topMenu.find("a"),
+    // Anchors corresponding to menu items
+        scrollItems = menuItems.map(function(){
+            var item = $($(this).attr("href"));
+            if (item.length) { return item; }
+        });
+
+if($(window).scrollTop() + $(window).height() == $(document).height()) {
+    menuItems
+            .parent().removeClass("active")
+            .end().filter("[href=#contact]").parent().addClass("active");
+}
+// Bind to scroll
+    $(window).scroll(function(){
+       
+        
+        if($(window).scrollTop() + $(window).height() == $(document).height()) {
+            menuItems
+                    .parent().removeClass("active")
+                    .end().filter("[href=#contact]").parent().addClass("active");
+        }
+        else {
+             // Get container scroll position
+            var fromTop = $(this).scrollTop()+topMenuHeight;
+
+            // Get id of current scroll item
+            var cur = scrollItems.map(function(){
+                
+                if ($(this).offset().top < fromTop)
+                    return this;
+            });
+            // Get the id of the current element
+            cur = cur[cur.length-1];
+            var id = cur && cur.length ? cur[0].id : "";
+
+            if (lastId !== id) {
+                lastId = id;
+                // Set/remove active class
+                menuItems
+                    .parent().removeClass("active")
+                    .end().filter("[href=#"+id+"]").parent().addClass("active");
+            }
+        }
+    });
 
 });
 
