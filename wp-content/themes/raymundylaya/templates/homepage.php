@@ -112,7 +112,7 @@ if ( have_posts() ) :
                         <h2>CONTACT</h2>
                     </div>
                     <div class="col-md-6">
-                        <div class="form-group">
+                        <!--<div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" class="form-control" id="name" placeholder="John Doe">
                         </div>
@@ -124,7 +124,10 @@ if ( have_posts() ) :
                             <label for="message">Message</label>
                             <textarea class="form-control" id="message" placeholder="Hello Raymund..." rows="6" style="resize: none;"></textarea>
                         </div>
-                        <button class="default-button">Send</button>
+                        <button class="default-button">Send</button>-->
+                        <?php 
+                            echo do_shortcode('[contact-form-7 id="20" title="Contact Form"]');
+                        ?>
                     </div>
                     <div class="col-md-6">
                         <!--<div class="embed-responsive embed-responsive-4by3">
