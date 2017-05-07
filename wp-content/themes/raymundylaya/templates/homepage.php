@@ -55,21 +55,23 @@ if ( have_posts() ) :
                         <div class="col-md-6 col-sm-12 col-xs-12 col-md-pull-6 remove-padding-left">
                             <p class="_title">Plazeit</p>
                             <p class="_description">Plazeit is a web application where travelers can search affordable rooms, hotels and apartments.
-                            This web application is made with MEAN stack.</p>
+                            This web application is made using MEAN stack. <br><br><span class="label label-primary">In Progress</span></p>
+                            
                             <a href="https://plazeit.raymundylaya.com" target="_blank">Visit Site   <i class="fa fa-external-link" aria-hidden="true"></i> </a>
                         </div>
                     </div>
-                    <div class="item row">
+                    <!--<div class="item row">
                         <div class="col-md-6 col-sm-12 col-xs-12 remove-padding-left" >
                             <img src="http://placehold.it/180x180" class="img-responsive" alt="">
                         </div>
                         <div class="col-md-6 col-sm-12 col-xs-12 remove-padding-right">
                             <p class="_title">Paradigmdevs</p>
                             <p class="_description">Paradigmdevs is consist of 6 developers that are offering mobile and web services.
-                                Their mission is not just to satisfy their clients with the high quality product they produce but also to make them realise that they've made a perfect decision in choosing Paradigmdevs. </p>
+                                Their mission is not just to satisfy their clients with the high quality product they produce but also to make them realise that they've made a perfect decision in choosing Paradigmdevs. <br><br><span class="label label-success">Done</span></p>
+                                
                             <a href="http://paradigmdevs.com" target="_blank">Visit Site</a>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
 
             </div>
@@ -146,12 +148,12 @@ if ( have_posts() ) :
                         <hr>
                         <div class="socials">
                             <ul>
-                                <li><a href="https://www.facebook.com/Raymundsanity" target="_blank"><i class="fa fa-facebook-f" aria-hidden="true"></i> /Raymundsanity</a></li>
-                                <li><a href="https://twitter.com/vincent81581" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>/vincent81581</a></li>
-                                <li><a href="https://www.linkedin.com/in/raymundylaya/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>/raymundylaya</a></li>
-                                <li><a href="https://www.twitch.tv/vincent815" target="_blank"><i class="fa fa-twitch" aria-hidden="true"></i>/vincent815</a></li>
-                                <li><a href="http://stackoverflow.com/users/3302093/vincent815" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i>/vincent815</a></li>
-                                <li><a href="https://github.com/vincent815" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>/vincent815</a></li>
+                                <li><a href="https://www.facebook.com/Raymundsanity" target="_blank" class="facebook"><i class="fa fa-facebook-f" aria-hidden="true"></i> /Raymundsanity</a></li>
+                                <li><a href="https://twitter.com/vincent81581" target="_blank" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i>/vincent81581</a></li>
+                                <li><a href="https://www.linkedin.com/in/raymundylaya/" target="_blank" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i>/raymundylaya</a></li>
+                                <li><a href="https://www.twitch.tv/vincent815" target="_blank" class="twitch"><i class="fa fa-twitch" aria-hidden="true"></i>/vincent815</a></li>
+                                <li><a href="http://stackoverflow.com/users/3302093/vincent815" target="_blank" class="stackoverflow"><i class="fa fa-stack-overflow" aria-hidden="true"></i>/vincent815</a></li>
+                                <li><a href="https://github.com/vincent815" target="_blank" class="github"><i class="fa fa-github" aria-hidden="true"></i>/vincent815</a></li>
 
                             </ul>
                         </div>
