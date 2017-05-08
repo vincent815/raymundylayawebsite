@@ -6,3 +6,4 @@ wp-config.env.php
 wp-config.production.php
 wp-config.staging.php
 wp-content/plugins/database-sync/
+readme.html
