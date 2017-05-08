@@ -462,6 +462,10 @@ header#masthead {
     color:$default-color;
     @include transition-all(.4s);
   }
+  textarea{
+    height:150px;
+    resize: none;
+  }
   .default-button{
     margin-top:30px;
     color:$nav-link-color;
