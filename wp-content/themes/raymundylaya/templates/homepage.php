@@ -19,9 +19,9 @@ if ( have_posts() ) :
     while ( have_posts() ) : the_post();
 
 ?>
-        <section class="full-page" id="banner">
-            <?php $bgImage = CFS()->get('banner_bg_image'); ?>
-            <img rvy-parallax-img="160" rvy-parallax-offset="0" src="<?= $bgImage ?>">
+<?php $bgImage = CFS()->get('banner_bg_image'); ?>
+        <section class="full-page" id="banner" style="background-image: url(<?= $bgImage ?>)">
+            <img id="bgImage" rvy-parallax-img="160" rvy-parallax-offset="0" src="<?= $bgImage ?>">
             <div class="dark-opacity"></div>
             <div class="container heading">
                 <div class="col-md-5">

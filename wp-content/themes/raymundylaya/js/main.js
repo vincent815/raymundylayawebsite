@@ -92,13 +92,10 @@ jQuery(document).ready(function($){
     }
     var imageUrl = $('[rvy-parallax-img]').attr('src')
 
-    $('[rvy-parallax-img]').attr('src',imageUrl).load(function() {
+    $('#bgImage').attr('src',imageUrl).load(function() {
         if(isMobile){
-            $(this).remove(); // prevent memory leaks
-            $('#banner').css('background-image', 'url('+imageUrl+')');
+            $('#bgImage').remove(); // prevent memory leaks
         }
-        
-
         if(!isMobile){
             setTimeout(function(){
                 $(".loop-container").addClass('active');
@@ -224,7 +221,6 @@ if($(window).scrollTop() + $(window).height() == $(document).height()) {
                     .end().filter("[href='#"+id+"']").parent().addClass("active");
             }
         }
-        console.log(lastId,id)
     });
 
 });
