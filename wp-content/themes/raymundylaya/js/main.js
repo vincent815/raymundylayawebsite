@@ -93,9 +93,6 @@ jQuery(document).ready(function($){
     var imageUrl = $('[rvy-parallax-img]').attr('src')
 
     $('#bgImage').attr('src',imageUrl).load(function() {
-        if(isMobile){
-            $('#bgImage').remove(); // prevent memory leaks
-        }
         if(!isMobile){
             setTimeout(function(){
                 $(".loop-container").addClass('active');
