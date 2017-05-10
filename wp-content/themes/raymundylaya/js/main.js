@@ -196,9 +196,11 @@ if($(window).scrollTop() + $(window).height() == $(document).height()) {
        
         
         if($(window).scrollTop() + $(window).height() == $(document).height()) {
+            id = 'contact';
+            lastId = id;
             menuItems
                     .parent().removeClass("active")
-                    .end().filter("[href=#contact]").parent().addClass("active");
+                    .end().filter("[href='#contact']").parent().addClass("active");
         }
         else {
              // Get container scroll position
@@ -213,15 +215,16 @@ if($(window).scrollTop() + $(window).height() == $(document).height()) {
             // Get the id of the current element
             cur = cur[cur.length-1];
             var id = cur && cur.length ? cur[0].id : "";
-
+            
             if (lastId !== id) {
                 lastId = id;
                 // Set/remove active class
                 menuItems
                     .parent().removeClass("active")
-                    .end().filter("[href=#"+id+"]").parent().addClass("active");
+                    .end().filter("[href='#"+id+"']").parent().addClass("active");
             }
         }
+        console.log(lastId,id)
     });
 
 });
